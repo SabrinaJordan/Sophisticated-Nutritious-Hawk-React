@@ -1,0 +1,116 @@
+.market-edge-layout251 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.market-edge-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.market-edge-column {
+  gap: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.market-edge-content1 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.market-edge-row {
+  align-items: flex-start;
+}
+.market-edge-feature1 {
+  flex: 1;
+}
+.market-edge-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.market-edge-feature2 {
+  flex: 1;
+}
+.market-edge-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.market-edge-feature3 {
+  flex: 1;
+}
+.market-edge-content4 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.market-edge-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.market-edge-action1 {
+  text-decoration: none;
+}
+.market-edge-feature1-title2 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .market-edge-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .market-edge-feature1-image {
+    height: 260px;
+  }
+  .market-edge-feature2-image {
+    height: 260px;
+  }
+  .market-edge-feature3-image {
+    height: 260px;
+  }
+}
+@media(max-width: 767px) {
+  .market-edge-column {
+    width: 100%;
+  }
+  .market-edge-text2 {
+    text-align: center;
+  }
+  .market-edge-row {
+    flex-direction: column;
+  }
+  .market-edge-feature1-image {
+    width: 100%;
+  }
+  .market-edge-feature2 {
+    width: auto;
+  }
+  .market-edge-feature2-image {
+    width: 100%;
+  }
+  .market-edge-feature3 {
+    width: auto;
+  }
+  .market-edge-actions {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .market-edge-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .market-edge-button1 {
+    width: 100%;
+  }
+  .market-edge-button2 {
+    width: 100%;
+  }
+}
